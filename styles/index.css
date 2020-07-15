@@ -21,10 +21,12 @@ body {
 .header {
   flex: 1 100%;
   background: gainsboro;
+  text-align: center;
+  margin-bottom: 32px;
 }
 .main {
   flex: 1 auto;
-  max-width: 47%;
+  max-width: 50%;
 }
 
 .txt {
@@ -36,30 +38,32 @@ body {
 }
 .devio {
   order: 4;
-
+  text-align: center;
+  padding: 44px;
   flex: 1 100%;
-  /* background: gainsboro; */
 }
+/* outer button styling so it appears to be elevated */
 .git-link-container {
   margin-left: 60px;
-  margin-top: 19px;
-  box-shadow: 0px 0px 0px 2px #225059;
+  margin-top: 20px;
+  box-shadow: 0px 0px 6px 2px #225059;
   background: linear-gradient(to bottom, #45a3bf 5%, #2e6c80 100%);
-  border-radius: 50px;
-  border: 2px solid #17361E;
+  border-radius: 24px;
+  border: 1px solid #225059;
   display: inline-block;
-  padding: 15px;
+  padding: 10px;
 }
 .git-link {
   background: linear-gradient(to bottom, #45a3bf 5%, #2e6c80 100%);
-  border-radius: 25px;
+  border-radius: 12px;
   display: inline-block;
   cursor: pointer;
-  color: #FFD25B;
+  color: #20110b;
   font-size: 20px;
-  padding: 15px;
+  padding: 14px;
   text-decoration: none;
 }
+/* change the gradient so the button appears to de-elevate */
 .git-link:hover {
   background: linear-gradient(to bottom, #2e6c80 5%, #45a3bf 100%);
   color: rgb(245, 190, 245);
